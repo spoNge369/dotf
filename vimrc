@@ -1,3 +1,4 @@
+set nocompatible
 call plug#begin()
 Plug 'sheerun/vim-polyglot'
 Plug 'preservim/NERDTree'
@@ -7,7 +8,6 @@ Plug 'https://github.com/joshdick/onedark.vim'
 call plug#end()
 
 colorscheme onedark
-set nocompatible
 set encoding=utf-8
 set shiftwidth=4
 set smartindent
